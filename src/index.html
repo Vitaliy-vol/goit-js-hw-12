@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+      <form id="search-form" class="form">
+        <input type="text" name="searchQuery"  class="input" placeholder="Search images..." required />
+        <button type="submit" class="button">Search</button>
+      </form>
+      <div class="gallery"></div>
+      <div class="load-more-container">
+        <span class="loader is-hidden">Loading...</span>
+        <button class="load-more is-hidden">Load More</button>
+      </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
